@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(245, 249, 253);
+  font-family: "Segoe Print", "Comic Sans MS";
+}
+.salam {
+  font-size: 30px;
+}
+
+div#about {
+  direction: rtl;
+}
+
+div#contact {
+  direction: rtl;
+}
+
+.nav-top {
+  direction: rtl;
+  padding: 10px;
+}
+
+.nav-top > a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.flex-box {
+  display: flex;
+  background-color: #faf0f0;
+}
+
+.flex-box > div {
+  margin: 10px;
+  padding: 50px;
+  font-size: 18px;
+}
+
+.my-text {
+  text-align: right;
+}
+
+h1 {
+  text-decoration: underline solid #ffff00 30%;
+}
+
+div.my-image-right > img {
+  border-radius: 20px;
+}
+
+div.my-text > a {
+  padding: 20px;
+}
+
+.skills-set {
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline solid #ffff00 30%;
+}
+
+.box-skills {
+  display: flex;
+  background-color: #f0f0e8;
+}
+
+div.box-skills > div {
+  padding: 40px;
+}
+
+.progress-bar {
+  width: 500px;
+  height: 30px;
+}
+
+label {
+  text-decoration: underline solid #ffff00 30%;
+  font-size: 20px;
+}
+
+div.port-f-one > div > img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+div.port-f-one > div > img:hover {
+  opacity: 1;
+}
+
+.port-f-one {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #f0f0e8;
+  text-align: center;
+  padding: 40px;
+}
+
+.contact-me {
+  background-image: url(./img/cloud-network.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin: 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  border-radius: 10px;
+}
+textarea {
+  border-radius: 10px;
+  width: 1027px;
+  height: 181px;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+.button {
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(238, 238, 163);
+}

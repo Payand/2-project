@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="nav-top">
+      <a href="#about">در باره من </a>
+      <a href="#skills">مهارت های من</a>
+      <a href="#portfolio">نمونه کارها</a>
+      <a href="#contact">تماس با من</a>
+    </nav>
+    <div class="flex-box">
+      <div>
+        <img
+          src="./img/programming-and-we-design.jpg"
+          alt="man-standing"
+          width="500px"
+        />
+      </div>
+      <div class="my-text">
+        <p class="salam">!سلام</p>
+        <h1>من علی شوشتری هستم</h1>
+        <p class="salam">توسعه دهنده وب و برنامه نویس</p>
+        <a href="https://www.github.com/payand" target="_blank"
+          ><img src="./img/6214513_github_logo_icon.svg" alt="Github"
+        /></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><img
+            src="./img/3259401_media_social_twitter_icon.svg"
+            width="35px"
+            alt="twitter"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><img src="./img/6214505_linkedin_logo_icon.svg" alt="linkedin"
+        /></a>
+        <a href="mailto:shooshtariali05@gmail.com"
+          ><img
+            src="./img/7208644_application_mail_email_message_icon.svg"
+            alt="email"
+            width="35px"
+        /></a>
+      </div>
+    </div>
+    <div class="flex-box">
+      <div id="about">
+        <h2>یکم درباره خودم بگم</h2>
+        <p>
+          من برنامه نویسی رو ۲ سال پیش شروع کردم و بصورت خود آموخته یاد گرفتم،با
+          زبان پایتون شروع کردم و بعد جاوا اسکریپت و ری اکت ـ ریداکس و در آخر با
+          جنگو و فلسک به اتمام رسوندم ، در حال حاضر هم در بوت کمپ مپصا دوره
+          فرانت اند میگذرونم
+        </p>
+      </div>
+      <div class="my-image-right">
+        <img src="./img/20211129_182117.jpg" alt="my-img" width="500" />
+      </div>
+    </div>
+    <div>
+      <p id="skills" class="skills-set">مهارت های من</p>
+    </div>
+    <div class="box-skills">
+      <div>
+        <label for="html">HTML: <strong>80%</strong></label>
+        <br />
+        <progress
+          class="progress-bar"
+          id="html"
+          value="80"
+          max="100"
+        ></progress>
+        <br />
+        <hr />
+        <label for="css">Css: <strong>60%</strong></label>
+        <br />
+        <progress class="progress-bar" id="css" value="60" max="100"></progress>
+        <hr />
+        <label for="js">JavaScript: <strong>40%</strong></label>
+        <br />
+        <progress class="progress-bar" id="js" value="40" max="100"></progress>
+        <hr />
+      </div>
+      <div>
+        <label for="py">Python: <strong>90%</strong></label>
+        <br />
+        <progress class="progress-bar" id="py" value="90" max="100"></progress>
+        <hr />
+        <label for="django">Django: <strong>70%</strong></label>
+        <br />
+        <progress
+          class="progress-bar"
+          id="django"
+          value="70"
+          max="100"
+        ></progress>
+        <hr />
+        <label for="flask">Flask: <strong>50%</strong></label>
+        <br />
+        <progress
+          class="progress-bar"
+          id="flask"
+          value="70"
+          max="100"
+        ></progress>
+        <hr />
+      </div>
+    </div>
+    <p id="portfolio" class="skills-set">نمونه کارها</p>
+    <div class="port-f-one">
+      <div>
+        <img src="./img/developer-team.png" alt="Portfolio-1" width="600px" />
+        <img src="./img/programming.png" alt="Portfolio-2" width="600px" />
+      </div>
+      <div>
+        <img
+          src="./img/frontend-designer.png"
+          alt="Portfolio-3"
+          width="500px"
+        />
+        <img
+          src="./img/application-development.png"
+          alt="Portfolio-4"
+          width="600px"
+        />
+      </div>
+    </div>
+
+    <div id="contact" class="contact-me">
+      <fieldset>
+        <legend class="skills-set">تماس با من</legend>
+        <form action="data.php" method="get">
+          <label for="name">:نام</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            size="100"
+            placeholder="لطفا نام خود را وارد کنید"
+            required
+          /><br />
+          <label for="email">:پست الکترونیک</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            size="100"
+            placeholder="لطفا ایمیل خود را وارد کنید"
+            required
+          /><br />
+          <label for="message">:پیغام</label>
+          <br />
+          <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        </form>
+      </fieldset>
+      <input class="button" type="submit" value="ارسال" />
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>
